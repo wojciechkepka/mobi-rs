@@ -48,6 +48,7 @@ pub mod headers;
 pub use crate::headers::MobiMetadata;
 pub use crate::record::Record;
 pub(crate) mod book;
+pub(crate) mod huff;
 pub(crate) mod lz77;
 pub(crate) mod reader;
 pub(crate) mod record;
